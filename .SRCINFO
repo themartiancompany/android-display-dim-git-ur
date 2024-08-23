@@ -1,0 +1,21 @@
+pkgbase = android-display-dim-git
+	pkgdesc = Android application utilities.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.r0.ga92db2f7ba81c4ae5c5f0ffd0c5702ab544c098b
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-display-dim
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = bbrightnessctl
+	depends = displayctl
+	provides = android-display-dim=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.r0.ga92db2f7ba81c4ae5c5f0ffd0c5702ab544c098b
+	conflicts = android-display-dim
+	source = android-display-dim.tar.gz::https://github.com/themartiancompany/android-display-dim/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = android-display-dim-git
